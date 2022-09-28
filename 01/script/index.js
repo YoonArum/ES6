@@ -18,8 +18,7 @@ const x = 10;
 console.log(x);
 */
 
-// JQuery $.document.ready
-// 돔 연습
+// JQuery $.document.ready 돔 연습
 document.addEventListener("DOMContentLoaded", () => {
     //요소생성
     let bt = document.createElement("button")
@@ -50,37 +49,36 @@ document.addEventListener("DOMContentLoaded", () => {
     const bts4 = document.querySelectorAll(".bt1");
     console.log(bts4);
 
-    
     /*
     console.log(bts4[0].innerHTML);
     console.log(bts4[0].innerText);
     console.log(
       * bts4[1].textContent);
-      
+
       */
-     
-     /*
+
+    /*
      //결과 nodelist를 반복으로 가져오기 반복문 for
      for (let i = 0; i < bts4.length; i++) {
        bts4[i].innerHTML = `mybutton${i+1}`
        console.log(bts4[i].innerHTML);
       }
       */
-     
+
     /*
     //반복문 for in => 키값 가지고 옴
     for(let i in bts4){
       console.log(i)
     }
     */
-   
-   /*
+
+    /*
    // 반복문 foreach : 메소드 형식 중간에 종료할 수 없음
    bts4.forEach((item,idx) => {
      console.log(`${idx} : ${item.innerHTML}`);
     })
     */
-   
+
     /*
     //반복문 forof break 가능
     for(let [idx,item] of bts4.entries()){
